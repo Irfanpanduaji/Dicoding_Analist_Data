@@ -5,7 +5,7 @@ import streamlit as st
 
 sns.set(style='darkgrid')
 
-day_df = pd.read_csv("D:/Analisis-Data-Bicycle-Sharing-main/Analisis-Data-Bicycle-Sharing-main/dashboard/day.csv")
+day_df = pd.read_csv("day.csv")
 day_df.head()
 
 drop_col = ['instant', 'temp', 'atemp', 'hum', 'windspeed']
