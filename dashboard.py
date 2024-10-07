@@ -5,7 +5,7 @@ import streamlit as st
 
 sns.set(style='darkgrid')
 
-day_df = pd.read_csv("day.csv")
+day_df = pd.read_csv("all_data.csv")
 day_df.head()
 
 drop_col = ['instant', 'temp', 'atemp', 'hum', 'windspeed']
