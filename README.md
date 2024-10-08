@@ -4,25 +4,7 @@
 - **Nama:** Irfan Pandu Aji
 - **Email:** ( panduaji7972@gmail.com )
 - **MyProfil Dicoding:** [ https://www.dicoding.com/users/irfanaji/academies ]
-- 
-## Berkas
-- `Proyek_Analisis_Data.ipynb`: Notebook Jupyter yang berisi analisis data.
-- `dashboard/`: Direktori yang berisi aplikasi dashboard Streamlit.
 
-## Cara Menjalankan
-- Notebook Jupyter dapat dilihat langsung di GitHub atau dijalankan dalam lingkungan yang mendukung Jupyter Notebook Python.
-- Dashboard Streamlit dapat dijalankan secara lokal dengan terlebih dahulu menavigasi ke direktori dashboard/ dan menjalankan perintah berikut:
-```
-cd dashboard
-streamlit run dashboard.py
-```
-
-## Setup Environment - Anaconda
-```
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install -r requirements.txt
-```
 ## Setup Environment - Shell/Terminal
 ```
 mkdir proyek_analisis_data
@@ -31,7 +13,18 @@ pipenv install
 pipenv shell
 pip install -r requirements.txt
 ```
-## Menjalankan Aplikasi Streamlit
+## Berkas
+- `Proyek_Analisis_Data.ipynb`: Notebook Jupyter yang berisi analisis data.
+- `dashboard/`: Direktori yang berisi aplikasi dashboard Streamlit.
+
+## Membuat File dashboard.py
+- Notebook Jupyter dapat dilihat langsung di GitHub atau dijalankan dalam lingkungan yang mendukung Jupyter Notebook Python.
+- Dashboard Streamlit dapat dijalankan secara lokal dengan terlebih dahulu menavigasi ke direktori dashboard/ dan menjalankan perintah berikut:
+```
+cd dashboard
+streamlit run dashboard.py
+```
+## Menmbuka Folder dashboard.py di comand prompt anda dan run Streamlit
 Pastikan Anda berada di folder dashboard terlebih dahulu sebelum menjalankan aplikasi Streamlit, karena file dashboard.py berada di dalam folder tersebut.
 ```
 cd dashboard
@@ -53,7 +46,7 @@ streamlit run dashboard.py
 ```
 5. Dashboard akan terlihat di browser web Anda secara lokal.
 
-## Dashboard
+## hal yang di tampil Dashboard pada streamlit.io
 Dashboard Streamlit mencakup fitur-fitur berikut:
 
 1. Tampilan interaktif dari data mentah dan statistik ringkasan.
